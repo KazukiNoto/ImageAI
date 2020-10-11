@@ -130,3 +130,4 @@ dmypy.json
 
 # model image file
 *.h5
+.DS_Store
