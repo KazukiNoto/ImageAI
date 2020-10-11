@@ -6,3 +6,5 @@ RUN pip install tensorflow==1.4.0
 RUN pip install keras
 RUN pip install opencv-python
 RUN pip install imageai --upgrade
+
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
