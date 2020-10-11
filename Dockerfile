@@ -1,4 +1,9 @@
 FROM python:3.5
+
+WORKDIR /app
+# Copy the current directory contents into the container at /app
+ADD . /app
+
 # pip 本体のアップデート
 RUN pip install --upgrade pip
 # tensorflow install
