@@ -15,4 +15,7 @@ RUN pip install imageai --upgrade
 RUN pip install requests
 RUN pip install ipykernel
 
+RUN apt-get update
+RUN apt-get install -y libgl1-mesa-dev
+
 # RUN pip install --trusted-host pypi.python.org -r requirements.txt
