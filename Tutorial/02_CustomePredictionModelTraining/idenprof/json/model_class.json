@@ -1,1 +1,12 @@
-{}
+{
+    "2" : "engineer",
+    "0" : "chef",
+    "4" : "fireman",
+    "9" : "waiter",
+    "1" : "doctor",
+    "3" : "farmer",
+    "5" : "judge",
+    "8" : "police",
+    "7" : "pilot",
+    "6" : "mechanic"
+}

@@ -13,5 +13,6 @@ RUN pip install keras==2.2.4
 RUN pip install numpy==1.16.1
 RUN pip install imageai --upgrade
 RUN pip install requests
+RUN pip install ipykernel
 
 # RUN pip install --trusted-host pypi.python.org -r requirements.txt
